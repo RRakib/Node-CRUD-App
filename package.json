@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "node ./bin/www; fi"
   },
   "dependencies": {
     "cookie-parser": "~1.4.3",
@@ -11,6 +11,23 @@
     "express": "~4.16.0",
     "http-errors": "~1.6.2",
     "morgan": "~1.9.0",
+    "nodemon": "^1.18.10",
     "pug": "2.0.0-beta11"
-  }
+  },
+  "description": "Nodejs CRUD app",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RRakib/Node-CRUD-App.git"
+  },
+  "keywords": [
+    "nodejs",
+    "CRUD"
+  ],
+  "author": "Rakib Uddin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RRakib/Node-CRUD-App/issues"
+  },
+  "homepage": "https://github.com/RRakib/Node-CRUD-App#readme"
 }
